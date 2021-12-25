@@ -1,7 +1,9 @@
+import Drawer from './components/Drawer'
+
 function App() {
   return (
-    <div>
-      <p className="text-lg text-green-400">Hello Vite + React!</p>
+    <div className="w-full h-screen">
+      <Drawer />
     </div>
   )
 }
